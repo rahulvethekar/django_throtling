@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .serializers import StudentSerializer,EmployeeSerializer
 from .models import Employee, Student
-from logger import logger
+# from logger import logger
 import logging
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
